@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(57, 56, 56);
+            color: white;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+        }
+        header>h1{
+            font-size: 4rem;
+            margin: 1rem;
+        }
+        header::before{
+            content: "";
+            background:url('https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, id.</p>
+    </header>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit accusantium autem sint officia laboriosam alias, dolore cum consequatur recusandae obcaecati a incidunt labore aliquid accusamus excepturi in. Est, molestiae exercitationem.</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,11 @@
+let color = [ 'green', 'red', 'blue','gray','yellow']
+
+for(i=0 ; i< color.length ; i++){
+    console.log('ตัวที่ ', i+1,'=',color[i])
+}
+
+//forEach
+color.forEach(myData)
+function myData(item,index){
+    console.log(item,'ตัวที่',index+1)
+}

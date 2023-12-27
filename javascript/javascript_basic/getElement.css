@@ -1,0 +1,9 @@
+.light{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.dark{
+    background-color: rgb(126, 126, 126);
+    color: blueviolet;
+}

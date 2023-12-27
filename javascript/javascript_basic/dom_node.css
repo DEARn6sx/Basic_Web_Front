@@ -1,0 +1,15 @@
+.darkMode{
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(204, 97, 97);
+    color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+}
+
+.greenMode{
+    background-color: rgb(29, 189, 93);
+    border: 2px solid rgb(44, 4, 4);
+    color: rgb(16, 82, 223);
+    padding: 30px;
+    margin: 30px;
+}

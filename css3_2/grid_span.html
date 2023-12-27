@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            padding: 3rem;
+            border: 1px solid grey;
+            background-color: rgb(101, 88, 65);
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+            /* grid-template-columns: repeat(4, auto); */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .item:first-child{
+            background-color: rgb(60, 169, 60);
+            grid-row: 1/span 2;
+            grid-column: 1/span 3;
+            
+        }
+        .item:last-child{
+            background-color: rgb(171, 110, 228);
+            grid-row: 5/span 1;
+            grid-column: 2/span 2;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+        <div class="item">Item 10</div>
+        <div class="item">Item 11</div>
+        <div class="item">Item 12</div>
+        <div class="item">Item 13</div>
+        <div class="item">Item 14</div>
+        <div class="item">Item 15</div>
+    </div>
+  
+</body>
+</html>

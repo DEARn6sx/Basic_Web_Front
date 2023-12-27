@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+    <style>
+        form{
+            border: 1px solid red;
+        }
+        input{
+            border: 2px solid greenyellow;
+        }
+        label{
+            border: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 >register form</h1>
+    <form action="" >
+        <div>
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" placeholder="input your firstname">
+        </div>
+        <div>
+            <label for="last_name">last name</label>
+            <input type="text" name="last_name" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="address">address</label>
+            <textarea name="address" id="address" cols="30" rows="10" readonly>dddddddd</textarea>
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" min="0" max="100" value="20">
+        </div>
+        <div>
+            <label for="birth_date">birth date</label>
+            <input type="date" name="birth_date" >
+        </div>
+        <div>
+            <label for="tel_number">tel</label>
+            <input type="tel" name="tel_number" >
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" name="color" >
+        </div>
+        <div>
+            <label for="range">range</label>
+            <input type="range" name="range" value="5">
+        </div>
+
+        <div>
+            <label for="educate">educate</label>
+            <select name="educate" id="educate">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" >3</option>
+                <option value="4"selected>4</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="">name=null
+        </div>
+
+        <div>
+            <label for="favorlite">favorlite</label>
+            <input type="checkbox" name="favorlite">code
+            <input type="checkbox" name="favorlite">game
+            <input type="checkbox" name="favorlite">sleep
+            <input type="checkbox" name="">null
+        </div>
+        <div>
+            <label for="uploadfile">uploadfile</label>
+            <input type="file" name="uploadfile">
+        </div>
+        <div>
+            <label for="url">url</label>
+            <input type="url" name="url">
+        </div>
+        <div>
+            <label for="submit">submit</label>
+            <input type="submit">
+        </div>
+        <div>
+            <input type="reset">
+            
+        </div>
+
+    </form>
+    <span style="border: 10px solid green;">
+        <button>submit</button>
+    </span>
+
+</body>
+</html>

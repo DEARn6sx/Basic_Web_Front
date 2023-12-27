@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom_event.css">
+</head>
+<body onload="welcome()">
+    <div id="box" >
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="ใส่ชื่อ" onfocus="hightLight(this)" onblur="unhightLight(this)">
+    <label for="">เลือก</label>
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="AAA">AAA</option>
+        <option value="BBB">BBB</option>
+        <option value="CCC">CCC</option>
+        <option value="DDD">DDD</option>
+    </select>
+    <p id ='display'></p>
+    <a href="http://" onmouseover="hightLight(this)" onmouseout="unhightLight(this)">menu 1</a>
+    <a href="http://" onmouseover="hightLight(this)" onmouseout="unhightLight(this)">menu 2</a>
+    <hr>
+
+    <label for="">เลือก</label>
+    <select name="" id="menu2" >
+        <option value="AAAAAA">AAAAAA</option>
+        <option value="BBBBBB">BBBBBB</option>
+        <option value="CCCCCC">CCCCCC</option>
+        <option value="DDDDDD">DDDDDD</option>
+    </select>
+    <p id ='display2'></p>
+    <a href="http://" id="m1" >menu 1</a>
+    <a href="http://" id="m2">menu 2</a>
+    <button id ='btn'> แจ้งเตือน</button>
+    <script src="dom_event.js"></script>
+</body>
+</html>

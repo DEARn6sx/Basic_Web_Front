@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --box: 2px solid red;
+            --them-color: yellow;
+        }
+        .box-1{
+            border: var(--box);
+            background-color: var( --them-color);
+        }
+        .box-2{
+            border: var(--box);
+            color: var(--them-color);
+            background-color: black;
+        }
+        .box-3{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box-2">
+        <h1>Heading 2</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box-3">
+        <h1>Heading 3</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

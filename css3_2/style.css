@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(178, 178, 178);
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    display: none;
+}
+
+/* smart phone */
+@media only screen and (max-width:500px){
+    body{
+        background-color: rgb(96, 83, 108);
+    }
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width:501px) and (max-width:768px){
+    body{
+        background-color: rgb(24, 159, 196);
+    }
+    #tablets h1{
+        display: block;
+    }
+}
+
+
+/* Laptop Desktop */
+@media only screen and (min-width:769px) and (max-width:1200px){
+    body{
+        background-color: rgb(24, 196, 24);
+    }
+    #normal h1{
+        display: block;
+    }
+}
+
+/* TV */
+@media (min-width:1201px) {
+    body{
+        background-color: rgb(196, 176, 24);
+    }
+    #widescreen h1{
+        display: block;
+    }
+}
+
+/* landscape */
+@media (max-height:500px){
+    body{
+        background-color: rgb(196, 64, 24);
+    }
+    #landscape h1{
+        display: block;
+    }
+}
